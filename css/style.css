@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    color: #fff;
-}
 
 
 .container {
@@ -24,12 +21,12 @@ body {
     background: rgb(253, 192, 202, 100);
     border: 2px #ccc solid;
     height: 200px;
-    padding:20px;
-    
+    line-height: 200px;
     border: 1px solid black;
     text-align: center;
    
 }
+
 
 [class*="col"] > .row > [class*="col"] 
 {
