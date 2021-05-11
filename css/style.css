@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+}
+
+
+.container {
+    width: 1070px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.row {
+    height: 100%;
+}
+
+[class*="col"] {
+    background: rgb(253, 192, 202, 100);
+    border: 2px #ccc solid;
+    height: 200px;
+    padding:20px;
+    
+    border: 1px solid black;
+    text-align: center;
+   
+}
+
+[class*="col"] > .row > [class*="col"] 
+{
+   height: 100%;
+   border: 1px solid white;
+   background-color: hotpink;
+}
