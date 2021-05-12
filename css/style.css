@@ -15,13 +15,16 @@
 
 .row {
     height: 100%;
+    width: 100%;
 }
 
 [class*="col"] {
     background: rgb(253, 192, 202, 100);
     border: 2px #ccc solid;
     height: 200px;
-    line-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid black;
     text-align: center;
    
